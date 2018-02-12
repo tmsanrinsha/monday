@@ -52,6 +52,7 @@ function! monday#increase()
   let i = 0
   while i < N
     let w = expand('<cword>')
+
     if g:monday#words =~# '\<' . w . ':'
       let a = matchstr(g:monday#words, w . ':\zs[^,]\+')
       call s:goto_target(w)

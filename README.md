@@ -1,3 +1,7 @@
+[Vimのインクリメント（\<C-a\>）、デクリメント（\<C-a\>）を拡張するようなプラグイン - SanRin舎](https://tmsanrinsha.net/post/2018/02/vim-increment-decrement/)
+
+---
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=1046
 
 Monday.vim extends the normal-mode commands <ctrl-a> and <ctrl-x> so that they can be applied to the names of months and weekdays. For example, if you are standing on the word "July" and presses <ctrl-a>, the word is replaced by "August".
